@@ -9,11 +9,11 @@ terraform
 ```
 
 VsCode 확장 프로그램
-- Haschicorp HCL Extension      
+- Hashicorp HCL Extension  
   <https://marketplace.visualstudio.com/items?itemName=HashiCorp.HCL>
-- Terraform     
+- Terraform  
   <https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform>
-    
+
 1. terraform
 ```
 cd terraform
