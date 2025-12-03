@@ -1,9 +1,7 @@
 # eks-simple-deployer
 Automate the creation of GitHub Actions and AWS EKS
 
-```
 <https://developer.hashicorp.com/terraform/install?product_intent=terraform>
-```
 
 설치 확인
 
