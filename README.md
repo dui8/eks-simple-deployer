@@ -2,9 +2,7 @@
 Automate the creation of GitHub Actions and AWS EKS
 
 ```
-Link: [terraform][terraformlink]
-
-[terraformlink]: https://developer.hashicorp.com/terraform/install?product_intent=terraform "Go google"
+[Google](https://developer.hashicorp.com/terraform/install?product_intent=terraform, "google link")google"
 ```
 
 설치 확인
