@@ -39,7 +39,7 @@ chmod 700 eks_automation.sh
 
 Github PAT(Personal access token) 생성
 ```
-vim git_setting.sh //Needs modification before running the shell script
+vim git_setting.sh // Needs modification before running the shell script
 
 chmod 700 git_setting
 
