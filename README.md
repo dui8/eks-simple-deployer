@@ -16,9 +16,7 @@ VsCode 확장 프로그램
 - Terraform
 
     <https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform>
-
-
-
+  
 1. terraform
 ```
 cd terraform
@@ -27,8 +25,7 @@ terraform init
 
 terraform apply
 ```
-
-
+  
 2. bash
 ```
 cd scripts
@@ -39,8 +36,7 @@ chmod 700 eks_automation.sh
 
 ./eks_automation.sh
 ```
-
-
+  
 3. Github PAT(Personal access token) 생성
 ```
 vim git_setting.sh // Needs modification before running the shell script
