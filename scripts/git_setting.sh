@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 sudo yum install -y yum-utils
 
 sudo yum-config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
