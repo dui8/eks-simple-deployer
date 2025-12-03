@@ -9,11 +9,11 @@ terraform
 ```
 
 VsCode 확장 프로그램
-- Hashicorp HCL Extension  
+- Hashicorp HCL Extension <br>
   <https://marketplace.visualstudio.com/items?itemName=HashiCorp.HCL>
-- Terraform  
+- Terraform <br>
   <https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform>
-
+<br>
 1. terraform
 ```
 cd terraform
@@ -22,7 +22,7 @@ terraform init
 
 terraform apply
 ```
-    
+<br>
 2. bash
 ```
 cd scripts
@@ -33,7 +33,7 @@ chmod 700 eks_automation.sh
 
 ./eks_automation.sh
 ```
-    
+<br>
 3. Github PAT(Personal access token) 생성
 ```
 vim git_setting.sh // Needs modification before running the shell script
