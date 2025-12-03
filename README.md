@@ -24,7 +24,9 @@ terraform init
 
 terraform apply
 ```
+
 <br>
+
 2. bash
 ```
 cd scripts
@@ -35,7 +37,9 @@ chmod 700 eks_automation.sh
 
 ./eks_automation.sh
 ```
+
 <br>
+
 3. Github PAT(Personal access token) 생성
 ```
 vim git_setting.sh // Needs modification before running the shell script
