@@ -3,6 +3,7 @@ set -e
 
 ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 REGION="ap-northeast-2"
+CLUSTER_NAME="must_input_eks_cluster_name"
 
 sudo yum update -y
 
@@ -77,8 +78,6 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/local/bin
 
 eksctl version
-
-CLUSTER_NAME="must_input_eks_cluster_name"
 
 # EKS 클러스터 kubeconfig 설정
 aws eks update-kubeconfig --region $REGION --name "$CLUSTER_NAME"
