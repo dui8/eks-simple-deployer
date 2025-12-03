@@ -4,6 +4,9 @@ sudo yum-config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.re
 
 sudo yum install -y gh
 
+
+#############################################
+# Required settings
 aws ssm put-parameter \
   --name "/github/test/pat" \
   --type "SecureString" \
@@ -19,6 +22,7 @@ GH_TOKEN=$(aws ssm get-parameter \
 GITHUB_OWNER="your_username"
 GITHUB_REPO="your_repository"
 GITHUB_URL="https://github.com/$GITHUB_OWNER/$GITHUB_REPO.git"
+#############################################
 
 cd /home/ec2-user
 rm -rf "$GITHUB_REPO"

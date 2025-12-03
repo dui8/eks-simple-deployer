@@ -30,13 +30,16 @@ terraform apply
 ```
 cd scripts
 
-vim eks_automation.sh
+vim eks_automation.sh // Needs modification before running the shell script
 
 chmod 700 eks_automation.sh
 
 ./eks_automation.sh
+```
 
-vim git_setting.sh
+Github PAT(Personal access token) 생성
+```
+vim git_setting.sh //Needs modification before running the shell script
 
 chmod 700 git_setting
 

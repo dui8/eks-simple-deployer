@@ -1,9 +1,12 @@
 #!/bin/bash
 set -e
 
+#############################################
+# Required settings
 ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 REGION="ap-northeast-2"
 CLUSTER_NAME="must_input_eks_cluster_name"
+#############################################
 
 sudo yum update -y
 
