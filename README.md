@@ -2,7 +2,9 @@
 Automate the creation of GitHub Actions and AWS EKS
 
 ```
-[Install](https://developer.hashicorp.com/terraform/install?product_intent=terraform)
+[link keyword][id]
+
+[id]: URL "Optional Title here"
 ```
 
 설치 확인
